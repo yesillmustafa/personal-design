@@ -1,0 +1,113 @@
+@import url(_variables.css);
+
+/*=============== BASE ===============*/
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--body-font);
+	font-size: var(--normal-font-size);
+	background-color: var(--body-color);
+	color: var(--text-color);
+	transition: background 0.4s;
+}
+
+h1,
+h2,
+h3 {
+	color: var(--title-color);
+	font-family: var(--title-font);
+	font-weight: var(--font-medium);
+	cursor: default;
+}
+p {
+	cursor: default;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+/*=============== THEME ===============*/
+.nav__buttons {
+	display: flex;
+	align-items: center;
+	column-gap: 1.5rem;
+}
+
+.change-theme {
+	font-size: 1.25rem;
+	color: var(--title-color);
+	cursor: pointer;
+	transition: color 0.3s, transform 0.3s;
+}
+.change-theme:hover {
+	color: var(--first-color);
+	transform: scale(1.3);
+}
+
+/*=============== VARIANBLE DARK THEME ===============*/
+body.dark-theme {
+	--title-color: hsl(var(--hue), 4%, 95%);
+	--text-color: hsl(var(--hue), 4%, 65%);
+	--body-color: hsl(var(--hue), 4%, 10%);
+	--container-color: hsl(var(--hue), 4%, 12%);
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+	max-width: 1024px;
+	margin-inline: 1.5rem;
+}
+
+.grid {
+	display: grid;
+	gap: 1.5rem;
+}
+
+.section {
+	padding-block: 2.5rem;
+}
+
+.section__border {
+	border-bottom: 1px solid var(--first-color);
+	padding-bottom: 3.5rem;
+}
+
+.section__title,
+.section__subtitle {
+	text-align: center;
+	cursor: default;
+}
+
+.section__title {
+	font-size: var(--h1-font-size);
+	font-weight: var(--font-semi-bold);
+	margin-bottom: 0.25rem;
+}
+
+.section__subtitle {
+	display: block;
+	font-size: var(--small-font-size);
+	color: var(--text-color-light);
+	margin-bottom: 3rem;
+}
+
+.main {
+	overflow: hidden; /* For animation */
+}

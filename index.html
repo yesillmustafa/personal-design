@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+			type="text/css"
+		/>
+		<link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+
+		<title>Mustafa Yesil</title>
+	</head>
+	<body>
+		<!--==================== HEADER ====================-->
+		<header class="header" id="header">
+			<nav class="nav container">
+				<a href="#" class="nav__logo"> <span class="logo">Yesil</span></a>
+
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list grid">
+						<li class="nav__item">
+							<a href="#home" class="nav__link active-link">
+								<i class="uil uil-estate"></i> Home
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#about" class="nav__link">
+								<i class="uil uil-user"></i> About
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#skills" class="nav__link">
+								<i class="uil uil-trophy"></i> Skills
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#projects" class="nav__link">
+								<i class="uil uil-scenery"></i> Projects
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#contact" class="nav__link">
+								<i class="uil uil-comment"></i> Contact
+							</a>
+						</li>
+					</ul>
+					<!-- Close button -->
+					<div class="nav__close" id="nav-close">
+						<i class="ri-close-line"></i>
+					</div>
+				</div>
+				<div class="nav__buttons">
+					<!-- theme change button -->
+					<i class="change-theme uil uil-moon" id="theme-button"></i>
+
+					<!-- toggle button -->
+					<div class="nav__toggle" id="nav-toggle">
+						<i class="ri-menu-4-line"></i>
+					</div>
+				</div>
+			</nav>
+			<div class="paint__toggle-length">
+				<!-- =============== PAINT TOGGLE =============== -->
+				<ul class="paint__menu" id="paint-menu">
+					<div class="paint__toggle" id="paint-toggle">
+						<i class="uil uil-plus"></i>
+					</div>
+					<li style="--i: 0; --clr: 0" class="paint__buttons">
+						<a>
+							<i class="ri-palette-line"></i>
+						</a>
+					</li>
+					<li style="--i: 1; --clr: 35" class="paint__buttons">
+						<a>
+							<i class="ri-palette-line"></i>
+						</a>
+					</li>
+					<li style="--i: 2; --clr: 60" class="paint__buttons">
+						<a>
+							<i class="ri-palette-line"></i>
+						</a>
+					</li>
+					<li style="--i: 3; --clr: 135" class="paint__buttons">
+						<a>
+							<i class="ri-palette-line"></i>
+						</a>
+					</li>
+					<li style="--i: 4; --clr: 180" class="paint__buttons">
+						<a>
+							<i class="ri-palette-line"></i>
+						</a>
+					</li>
+					<li style="--i: 5; --clr: 210" class="paint__buttons">
+						<a>
+							<i class="ri-palette-line"></i>
+						</a>
+					</li>
+					<li style="--i: 6; --clr: 240" class="paint__buttons">
+						<a>
+							<i class="ri-palette-line"></i>
+						</a>
+					</li>
+					<li style="--i: 7; --clr: 315" class="paint__buttons">
+						<a>
+							<i class="ri-palette-line"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+
+		<!--==================== MAIN ====================-->
+		<main class="main">
+			<!--==================== HOME ====================-->
+			<section class="home section" id="home">
+				<div class="profile container section__border">
+					<div class="profile__container grid">
+						<div class="profile__data">
+							<div class="profile__border">
+								<div class="profile__perfil">
+									<img src="/assets/img/perfil.png" alt="" />
+								</div>
+							</div>
+							<h2 class="profile__name">Mustafa Yesil</h2>
+							<h3 class="profile__profession">Web Developer</h3>
+
+							<ul class="profile__social">
+								<a
+									href="https://www.instagram.com/_mustafayesil_"
+									target="_blank"
+									class="profile__social-link"
+								>
+									<i class="uil uil-instagram"></i>
+								</a>
+								<a
+									href="https://github.com/yesillmustafa"
+									target="_blank"
+									class="profile__social-link"
+								>
+									<i class="uil uil-github-alt"></i>
+								</a>
+								<a
+									href="https://www.linkedin.com/in/yesilmustafa/"
+									target="_blank"
+									class="profile__social-link"
+								>
+									<i class="uil uil-linkedin-alt"></i>
+								</a>
+							</ul>
+						</div>
+						<div class="profile__info">
+							<h3 class="profile__info-title">Bio</h3>
+							<p class="profile__info-description">
+								High level experience in web design and development knowledge,
+								producing quality work.
+							</p>
+						</div>
+						<div class="profile__buttons">
+							<a href="#contact" class="button"
+								>Contact Me
+								<i class="uil uil-message"></i>
+							</a>
+							<a href="" class="button"
+								>Download CV <i class="uil uil-download-alt"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--==================== ABOUT ====================-->
+			<section class="about section" id="about">
+				<h2 class="section__title">About Me</h2>
+				<span class="section__subtitle">My introduction</span>
+
+				<div class="about__container container grid section__border">
+					<p class="about__description">
+						I'm a web developer with a vast array of knowledge in front end and back end development,
+						responsive frameworks and databases. Besides the web environments, 
+						I am also interested in android oriented mobile application development and 
+						I do research and studies in the field of cyber security and ethical hacking as a hobby.
+						<br><br>
+						My objective is simply to be the best web developer 
+						I can be and contribute everything I know and can do to the tech industry. 
+						I've dedicated myself to perfecting my craft by learning from more experienced developers, 
+						staying humble, and constantly taking steps to learn everything I can about development.
+					</p>
+					<h3 class="about__data-title">Interest</h3>
+					<div class="interest__container container grid">
+						<div class="interest__card">
+							<i class="uil uil-arrow interest-icon"></i>
+							<h2 class="interest__title">
+								Web <br />
+								development
+							</h2>
+							<p class="interest__description">
+								Frontend <i class="uil uil-brackets-curly"></i><br />
+								Backend <i class="uil uil-server-connection"></i>
+							</p>
+							<span class="card__border"></span>
+						</div>
+						<div class="interest__card">
+							<i class="uil uil-mobile-android interest-icon"></i>
+							<h2 class="interest__title">
+								Mobile <br />
+								development
+							</h2>
+							<p class="interest__description">
+								Android <i class="uil uil-android"></i> <br />
+								IOS
+								<i class="uil uil-apple"></i>
+							</p>
+							<span class="card__border"></span>
+						</div>
+						<div class="interest__card">
+							<i class="uil uil-desktop interest-icon"></i>
+							<h2 class="interest__title">
+								Desktop App <br />
+								development
+							</h2>
+							<p class="interest__description">
+								Windows <i class="uil uil-windows"></i>, Mac <br />
+								Linux <i class="uil uil-linux"></i>
+							</p>
+							<span class="card__border"></span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--==================== SKILLS ====================-->
+			<section class="skills section" id="skills">
+				<h2 class="section__title">Skills</h2>
+				<span class="section__subtitle">My favorite skills</span>
+
+				<div class="skills__container container grid section__border">
+					<!--==================== SKILLS 1 ====================-->
+					<div class="skills__content">
+						<h3 class="skills__title">
+							<i class="uil uil-brackets-curly"></i> Frontend Developer
+						</h3>
+						<div class="skills__info">
+							<div class="skills__data">
+								<div class="skills__blob">
+									<img src="assets/img/html-1.svg" alt="skills image" />
+								</div>
+
+								<h3 class="skills__name">HTML</h3>
+								<span class="skills__subtitle">Intermediate</span>
+							</div>
+							<div class="skills__data">
+								<div class="skills__blob">
+									<img src="assets/img/css-3.svg" alt="skills image" />
+								</div>
+
+								<h3 class="skills__name">CSS</h3>
+								<span class="skills__subtitle">Advanced</span>
+							</div>
+							<div class="skills__data">
+								<div class="skills__blob">
+									<img
+										src="assets/img/logo-javascript.svg"
+										alt="skills image"
+									/>
+								</div>
+
+								<h3 class="skills__name">JavaScript</h3>
+								<span class="skills__subtitle">Intermediate</span>
+							</div>
+							<div class="skills__data">
+								<div class="skills__blob">
+									<img src="assets/img/angular-icon-1.svg" alt="skills image" />
+								</div>
+
+								<h3 class="skills__name">Angular</h3>
+								<span class="skills__subtitle">Basic</span>
+							</div>
+							<div class="skills__data">
+								<div class="skills__blob">
+									<img src="assets/img/react-2.svg" alt="skills image" />
+								</div>
+
+								<h3 class="skills__name">React</h3>
+								<span class="skills__subtitle">Basic</span>
+							</div>
+							<div class="skills__data">
+								<div class="skills__blob">
+									<img src="assets/img/git-icon.svg" alt="skills image" />
+								</div>
+
+								<h3 class="skills__name">Git</h3>
+								<span class="skills__subtitle">Intermediate</span>
+							</div>
+						</div>
+					</div>
+
+					<!--==================== SKILLS 2 ====================-->
+					<div class="skills__content">
+						<h3 class="skills__title">
+							<i class="uil uil-server-connection"></i> Backend Developer
+						</h3>
+						<div class="skills__info">
+							<div class="skills__data">
+								<div class="skills__blob">
+									<img src="assets/img/dot-net-core-7.svg" alt="skills image" />
+								</div>
+
+								<h3 class="skills__name">ASP.Net</h3>
+								<span class="skills__subtitle">Intermediate</span>
+							</div>
+							<div class="skills__data">
+								<div class="skills__blob">
+									<img src="assets/img/mysql-6.svg" alt="skills image" />
+								</div>
+
+								<h3 class="skills__name">MySQL</h3>
+								<span class="skills__subtitle">Advanced</span>
+							</div>
+							<div class="skills__data">
+								<div class="skills__blob">
+									<img src="assets/img/nodejs-icon.svg" alt="skills image" />
+								</div>
+
+								<h3 class="skills__name">NodeJS</h3>
+								<span class="skills__subtitle">Intermediate</span>
+							</div>
+							<div class="skills__data">
+								<div class="skills__blob">
+									<img src="assets/img/php-1.svg" alt="skills image" />
+								</div>
+
+								<h3 class="skills__name">PHP</h3>
+								<span class="skills__subtitle">Basic</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--==================== PROJECTS ====================-->
+			<section class="projects section" id="projects">
+				<h2 class="section__title">Projects</h2>
+				<span class="section__subtitle">Most recent work</span>
+
+				<div class="container section__border">
+					<div class="projects__container swiper">
+						<div class="swiper-wrapper">
+							<!--==================== PROJECTS 1 ====================-->
+							<div class="projects__content swiper-slide">
+								<img
+									src="/assets/img/project1.jpg"
+									alt="projects image"
+									class="projects__img"
+								/>
+								<div>
+									<span class="projects__subtitle">Web</span>
+									<h1 class="projects__title">Modern Website</h1>
+									<a href="" class="projects__button">
+										View Demo <i class="ri-arrow-right-line"></i>
+									</a>
+								</div>
+							</div>
+							<!--==================== PROJECTS 2 ====================-->
+							<div class="projects__content swiper-slide">
+								<img
+									src="/assets/img/project2.jpg"
+									alt="projects image"
+									class="projects__img"
+								/>
+								<div>
+									<span class="projects__subtitle">Web</span>
+									<h1 class="projects__title">E-Commerce Store</h1>
+									<a href="" class="projects__button">
+										View Demo <i class="ri-arrow-right-line"></i>
+									</a>
+								</div>
+							</div>
+							<!--==================== PROJECTS 3 ====================-->
+							<div class="projects__content swiper-slide">
+								<img
+									src="/assets/img/project3.jpg"
+									alt="projects image"
+									class="projects__img"
+								/>
+								<div>
+									<span class="projects__subtitle">Design</span>
+									<h1 class="projects__title">Application Design</h1>
+									<a href="" class="projects__button">
+										View Demo <i class="ri-arrow-right-line"></i>
+									</a>
+								</div>
+							</div>
+							<!--==================== PROJECTS 4 ====================-->
+							<div class="projects__content swiper-slide">
+								<img
+									src="/assets/img/project4.jpg"
+									alt="projects image"
+									class="projects__img"
+								/>
+								<div>
+									<span class="projects__subtitle">Animation</span>
+									<h1 class="projects__title">Animation Prototype</h1>
+									<a href="" class="projects__button">
+										View Demo <i class="ri-arrow-right-line"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- Swiper arrows -->
+						<div class="swiper-button-next">
+							<i class="ri-arrow-right-s-line"></i>
+						</div>
+						<div class="swiper-button-prev">
+							<i class="ri-arrow-left-s-line"></i>
+						</div>
+						<!-- swiper pagination -->
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+
+			<!--==================== CONTACT ====================-->
+			<section class="contact section" id="contact">
+				<h2 class="section__title">Contact Me</h2>
+				<span class="section__subtitle">Get in touch</span>
+
+				<div class="contact__container container grid section__border">
+					<div class="contact__content">
+						<h3 class="contact__title">
+							<i class="uil uil-info-circle"></i> My Info
+						</h3>
+
+						<div class="contact__info">
+							<div class="contact__data">
+								<span class="contact__data-title">Email</span>
+								<span class="contact__data-info"
+									><i class="uil uil-envelope"></i>
+									dev.mustafayesil@gmail.com</span
+								>
+							</div>
+							<div class="contact__data">
+								<span class="contact__data-title">Address</span>
+								<span class="contact__data-info"
+									><i class="uil uil-location-point"></i> Adana, Turkey</span
+								>
+							</div>
+							<div class="contact__data">
+								<span class="contact__data-title"> Messenger</span>
+								<span class="contact__data-info"
+									><i class="uil uil-facebook-messenger-alt"></i>
+									@yesillmustafa</span
+								>
+								<a
+									href="https://m.me/yesillmustafa"
+									target="_blank"
+									class="contact__button"
+									>Write Me <i class="uil uil-message"></i
+								></a>
+							</div>
+						</div>
+					</div>
+					<div class="contact__content">
+						<h3 class="contact__title">
+							<i class="uil uil-location-arrow"></i> Send e-mail
+						</h3>
+
+						<form action="" class="contact__form" id="contact-form">
+							<div class="contact__form-div">
+								<label class="contact__form-tag">Names</label>
+								<input
+									type="text"
+									name="user_name"
+									required
+									placeholder="Write your names"
+									class="contact__form-input"
+									id="contact-name"
+								/>
+							</div>
+							<div class="contact__form-div">
+								<label class="contact__form-tag">Mail</label>
+								<input
+									type="email"
+									name="user_email"
+									required
+									placeholder="Write your mail"
+									class="contact__form-input"
+									id="contact-email"
+								/>
+							</div>
+							<div class="contact__form-div contact__form-area">
+								<label class="contact__form-tag">Message</label>
+								<textarea
+									name="user_content"
+									placeholder="Write your message"
+									id="contact-content"
+									class="contact__form-input"
+								></textarea>
+							</div>
+
+							<p class="contact__message" id="contact-message"></p>
+
+							<button type="submit" class="contact__button">
+								Submit <i class="uil uil-arrow-up-right"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!--==================== FOOTER ====================-->
+		<footer class="footer">
+			<div class="footer__container container">
+				<h1 class="footer__title">Mustafa Yesil</h1>
+				<p>Web Developer</p>
+
+				<ul class="footer__list">
+					<li>
+						<a href="#home" class="footer__link">Home</a>
+					</li>
+					<li>
+						<a href="#skills" class="footer__link">Skills</a>
+					</li>
+					<li>
+						<a href="#projects" class="footer__link">Projects</a>
+					</li>
+				</ul>
+
+				<ul class="footer__social">
+					<a
+						href="https://www.instagram.com/_mustafayesil_"
+						target="_blank"
+						class="footer__social-link"
+					>
+						<i class="uil uil-instagram"></i>
+					</a>
+					<a
+						href="https://github.com/yesillmustafa"
+						target="_blank"
+						class="footer__social-link"
+					>
+						<i class="uil uil-github-alt"></i>
+					</a>
+					<a
+						href="https://www.linkedin.com/in/yesilmustafa/"
+						target="_blank"
+						class="footer__social-link"
+					>
+						<i class="uil uil-linkedin-alt"></i>
+					</a>
+				</ul>
+
+				<span class="footer__copy">
+					&#169; Copyright Mustafa Yesil. All rights reserved
+				</span>
+			</div>
+		</footer>
+
+		<!--==================== SCROLL UP ====================-->
+		<a href="#" class="scroll-up" id="scroll-up">
+			<i class="uil uil-arrow-up"></i>
+		</a>
+
+		<script src="/assets/js/scrollreveal.min.js"></script>
+		<script src="/assets/js/swiper-bundle.min.js"></script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+		></script>
+		<script src="/assets/js/main.js"></script>
+	</body>
+</html>

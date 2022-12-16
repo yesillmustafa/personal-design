@@ -1,0 +1,15 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lora:wght@400;500;600&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
+
+@import url(_variables.css);
+@import url(_base.css);
+@import url(_header.css);
+@import url(_home.css);
+@import url(_about.css);
+@import url(_skills.css);
+@import url(_buttons.css);
+@import url(_projects.css);
+@import url(_contact.css);
+@import url(_footer.css);
+@import url(_scroll-bar.css);
+@import url(_breakpoints.css);

@@ -1,0 +1,64 @@
+@import url(_variables.css);
+
+.interest__container {
+	row-gap: 2.5rem;
+	justify-content: center;
+	text-align: center;
+}
+
+.about__description,
+.about__data-title {
+	text-align: center;
+}
+
+.about__data-title {
+	font-size: var(--h2-font-size);
+	font-weight: var(--font-semi-bold);
+}
+.interest__card {
+	position: relative;
+	width: 200px;
+	height: 296px;
+	background: var(--gradient-color);
+	text-align: center;
+	padding: 3.5rem 1rem;
+	border-radius: 7.25rem;
+	transition: 0.3s;
+}
+
+.interest__card i.interest-icon {
+	display: block;
+	font-size: 2rem;
+	color: var(--title-color);
+	margin-bottom: 0.75rem;
+	transition: transform 0.8s;
+}
+
+.interest__title {
+	font-size: var(--normal-font-size);
+	font-weight: var(--font-semi-bold);
+	margin-bottom: 1.5rem;
+}
+
+.card__border {
+	width: 220px;
+	height: 316px;
+	border: 2px solid var(--first-color);
+	border-radius: 7.75rem;
+	position: absolute;
+	inset: 0;
+	left: -10px;
+	margin: auto;
+	z-index: -1;
+	transition: opacity 0.6s;
+	opacity: 0;
+}
+
+.interest__card:hover i {
+	transform: rotateY(360deg);
+}
+
+.interest__card:hover .card__border {
+	opacity: 1;
+	box-shadow: 0 0 10px var(--first-color);
+}

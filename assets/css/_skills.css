@@ -1,0 +1,86 @@
+@import url(_variables.css);
+
+.skills__container {
+	row-gap: 3.5rem;
+}
+
+.skills__title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 0.5rem;
+	font-size: var(--normal-font-size);
+	font-weight: var(--font-semi-bold);
+	margin-bottom: 2.5rem;
+}
+
+.skills__title i {
+	font-size: 1rem;
+	font-weight: initial;
+}
+
+.skills__info,
+.skills__data,
+.skills__blob {
+	display: grid;
+}
+
+.skills__info {
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2.5rem 2rem;
+}
+.skills__data {
+	justify-content: center;
+	text-align: center;
+}
+
+.skills__blob {
+	width: 80px;
+	height: 100px;
+	background: var(--container-color);
+	border-radius: 3rem;
+	place-items: center;
+	margin-bottom: 1rem;
+	transition: 0.3s ease-out;
+}
+.skills__blob:hover {
+	box-shadow: 0 0 10px var(--first-color);
+	transform: scale(1.1);
+}
+
+.skills__blob img {
+	width: 40px;
+}
+
+.skills__name {
+	font-size: var(--smaller-font-size);
+	margin-bottom: 0.25rem;
+}
+
+.skills__subtitle {
+	font-size: var(--tiny-font-size);
+	color: var(--text-color-light);
+	cursor: default;
+}
+
+/* Animation skills */
+.skills__blob:hover img {
+	animation: bounce-skills 0.6s;
+}
+@keyframes bounce-skills {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(-6px);
+	}
+	40% {
+		transform: translateY(0);
+	}
+	60% {
+		transform: translateY(-3px);
+	}
+	80% {
+		transform: translateY(0);
+	}
+}
